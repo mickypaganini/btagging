@@ -67,3 +67,4 @@ RUN pip install --no-cache-dir \
 
 #ENV KERAS_BACKEND   "theano"
 
+RUN rm -fr /tmp/* /var/tmp/*
